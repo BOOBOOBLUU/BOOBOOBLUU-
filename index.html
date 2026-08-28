@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BOOBOOBLUU DIGITAL STUDIO</title>
 
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+body{
+margin:0;
+background:
+radial-gradient(circle at 20% 10%,#0b4770 0,transparent 27%),
+radial-gradient(circle at 80% 40%,#062b48 0,transparent 24%),
+linear-gradient(#02060b,#061726,#02060b);
+color:#f5f9ff;
+font-family:Arial,sans-serif;
+}
+
+body:before{
+content:"";
+position:fixed;
+inset:0;
+pointer-events:none;
+background-image:
+radial-gradient(circle,#fff 1px,transparent 1px),
+radial-gradient(circle,#53c7ff 1px,transparent 1px);
+background-size:150px 150px,230px 230px;
+opacity:.25;
+}
+
+.wrap{
+width:min(1100px,92%);
+margin:auto;
+}
+
+nav{
+position:sticky;
+top:0;
+z-index:10;
+background:#02070dd9;
+backdrop-filter:blur(15px);
+border-bottom:1px solid #16425e;
+}
+
+.nav{
+height:72px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo{
+font-weight:900;
+letter-spacing:3px;
+}
+
+.star{
+color:#b9efff;
+text-shadow:0 0 10px #2bbaff,0 0 25px #2bbaff;
+font-size:25px;
+margin-right:10px;
+}
+
+.links a{
+color:#c9d5e5;
+text-decoration:none;
+margin-left:24px;
+font-size:12px;
+letter-spacing:2px;
+}
+
+.hero{
+min-height:90vh;
+display:flex;
+align-items:center;
+padding:65px 0;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1.15fr .85fr;
+gap:45px;
+align-items:center;
+}
+
+.pill{
+display:inline-block;
+border:1px solid #8b774b;
+border-radius:30px;
+padding:10px 15px;
+color:#ead28c;
+font-size:12px;
+letter-spacing:3px;
+}
+
+h1{
+margin:25px 0 0;
+line-height:.9;
+}
+
+.big{
+display:block;
+font-size:clamp(44px,8vw,100px);
+font-style:italic;
+letter-spacing:-2px;
+white-space:nowrap;
+color:white;
+text-shadow:
+0 0 8px white,
+0 0 17px #63d4ff,
+0 0 40px #009cff;
+}
+
+.smallbrand{
+display:block;
+margin-top:20px;
+font-size:16px;
+letter-spacing:7px;
+color:#bbc8da;
+}
+
+.tag{
+max-width:670px;
+font-size:18px;
+line-height:1.7;
+color:#aab8cc;
+margin-top:30px;
+}
+
+.buttons{
+display:flex;
+gap:14px;
+margin-top:28px;
+flex-wrap:wrap;
+}
+
+.btn{
+display:inline-block;
+padding:15px 22px;
+border-radius:40px;
+border:1px solid #286384;
+text-decoration:none;
+font-weight:900;
+font-size:13px;
+letter-spacing:2px;
+color:white;
+}
+
+.primary{
+background:linear-gradient(135deg,#128fdc,#4ac5ff);
+color:#03101a;
+box
